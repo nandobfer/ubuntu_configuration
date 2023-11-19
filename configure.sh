@@ -16,7 +16,7 @@ echo "Upgrading packages"
 sudo apt full-upgrade -y
 echo
 
-PACKAGES="neovim curl git vlc gnome-tweaks cmatrix neofetch"
+PACKAGES="neovim curl git vlc gnome-tweaks cmatrix neofetch adb"
 echo "installing must have packages"
 echo $PACKAGES | xargs sudo apt install -y
 echo
