@@ -16,7 +16,7 @@ then
 fi
 
 # Define the list of extension IDs
-extension_ids=(5721 5393 3843 1762 1193 4630 3010 5748)
+extension_ids=(5721 5393 3843 1762 1193 4630 3010 5748 5416)
 
 gsettings set org.gnome.shell disable-extension-version-validation "true"
 
