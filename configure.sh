@@ -16,7 +16,9 @@ echo "Upgrading packages"
 sudo apt full-upgrade -y
 echo
 
-PACKAGES="neovim curl git vlc gnome-tweaks cmatrix neofetch adb ffmpeg htop"
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+
+PACKAGES="neovim curl git vlc gnome-tweaks cmatrix neofetch adb ffmpeg htop speedtest"
 echo "installing must have packages"
 echo $PACKAGES | xargs sudo apt install -y
 echo
